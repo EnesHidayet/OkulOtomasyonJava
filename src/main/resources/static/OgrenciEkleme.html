@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <form action="http://localhost:8080/ogrenci/save" method="post">
+            <div>
+                <label for="ad">Ad...........:</label>
+                <input type="text" id="ad" name="ad">
+            </div>
+
+            <div>
+                <label for="yas">Yaş..........:</label>
+                <input type="text" id="yas" name="yas">
+            </div>
+
+            <div>
+                <label for="soyad">Soyad......:</label>
+                <input type="text" id="soyad" name="soyad">
+            </div>
+
+            <div>
+                <label for="cinsiyet">Cinsiyet...:</label>
+                <select id="cinsiyet" name="cinsiyet">
+                    <option value="ERKEK">Erkek</option>
+                    <option value="KADIN">Kadın</option>
+                    <option value="BELIRTMEK_ISTEMIYORUM">Belirtmek istemiyorum</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Kaydet">
+            </div>
+        </form>
+
+</body>
+</html>
